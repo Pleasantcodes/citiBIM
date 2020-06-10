@@ -105,3 +105,11 @@ img {
 
 .btn:hover {
   background: #444; }
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--overlay-color); }
