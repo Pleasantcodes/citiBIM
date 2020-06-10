@@ -40,14 +40,14 @@ img {
 .navbar .logo {
   font-size: 2rem; }
 
-.navbar.nav {
+.nav {
   justify-self: flex-end;
   display: flex;
   align-items: center;
   justify-content: center; }
 
-.navbar .nav a {
+.nav a {
   padding: 0 1rem; }
 
-.navbar .nav a:hover {
+.nav a:hover {
   color: #555; }
