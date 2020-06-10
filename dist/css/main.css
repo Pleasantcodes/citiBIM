@@ -61,3 +61,47 @@ img {
   grid-gap: 3rem;
   align-items: center;
   justify-content: center; }
+
+.section-a h1 {
+  font-size: 4rem;
+  color: #333; }
+
+.section-a p {
+  margin: 1rem 0; }
+
+.section-b {
+  position: relative;
+  background: url("../img/section-b.jpg") no-repeat bottom center/cover;
+  height: 600px; }
+
+.section-b-inner {
+  color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  max-width: 860px;
+  padding: 5rem 0; }
+
+.section-b-inner h3 {
+  font-size: 2rem; }
+
+.section-b-inner h2 {
+  font-size: 5rem;
+  margin-top: 1rem; }
+
+.btn {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 30px; }
+
+.btn:hover {
+  background: #444; }
