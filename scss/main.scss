@@ -73,10 +73,19 @@ img {
     margin: 2rem 0;
 }
 
-.secton-a .container {
+.section-a .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 3rem;
     align-items: center;
     justify-content: center;
+}
+
+.section-a h1 {
+    font-size: 4rem;
+    color: $primary-color;
+}
+
+.section-a p {
+    margin: 1rem 0;
 }
