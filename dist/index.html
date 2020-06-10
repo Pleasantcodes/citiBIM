@@ -3,10 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     <link rel="stylesheet" href="css/main.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/simple-lightbox.min.css">
+    <!-- <link rel="stylesheet" href="https://fonts.google.com/css?family=catamaran&display=swap" rel="stylesheet"> -->
+    <title>CitiBIM - Best Construction Network</title>
 </head>
-<body>
-    
+<body id="home">
+    <nav class="navbar">
+        <div class="container">
+           <h1 class="logo">CitiBIM</h1>
+           <ul class="nav">
+               <li><a href="#home">Home</a></li>  
+               <li><a href="#login">Login</a></li>  
+               <li><a href="#signup">Sign UP</a></li>   
+           </ul>
+        </div>
+    </nav>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="js/simple-lightbox.min.js"></script>  
+    <script>
+        $(function(){
+            const $gallery = $('.gallery a').simpleLightbox();
+        })
+
+    </script>
 </body>
 </html>
