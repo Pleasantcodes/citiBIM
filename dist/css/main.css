@@ -122,8 +122,9 @@ img {
   padding: 4rem 0; }
 
 .leo {
-  width: 24px;
-  height: 34px; }
+  width: 70px;
+  height: 70px;
+  border-radius: 50%; }
 
 .section-footer .container {
   display: grid;
