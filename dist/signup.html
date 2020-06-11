@@ -11,69 +11,74 @@
     <title>CitiBIM - Best Construction Network</title>
 </head>
 <body id="home">
-    <nav class="navbar">
-        <div class="container">
-           <h1 class="logo">CitiBIM</h1>
-           <ul class="nav">
-               <li><a href="#home"><ion-icon name="home-outline"></ion-icon></a></li>  
-               <li><a href="login.html">login</a></li>  
-               <li><a href="signup.html">sign-up</a></li>   
-           </ul>
-        </div>
-    </nav>
+    <div class="top">
+        <nav class="navbar">
+            <div class="container">
+            <h1 class="logo">CitiBIM</h1>
+            <ul class="nav">
+                <li><a href="index.html"><ion-icon name="home-outline"></ion-icon></a></li>  
+                <li><a href="login.html">login</a></li>  
+                <li><a href="#">sign-up</a></li>   
+            </ul>
+            </div>
+        </nav>
+    </div>
 
     <!-- showcase -->
     <section class="section-a">
         <div class="container">
             <div>
-                <h1><strong>HIRE</strong> or get Hired</h1>
-                <p>A solid project will be found when you have our crew around.
-                  Always dedicated and devoted. <br>
-                  An exceptional experience everytime.</p>
-                <a href="login.html" class="btn">Login in</a>
+                    <div class="container" id="container">
+                        <div class="form-container sign-up-container">
+                            <form action="#">
+                                <h1>Create Account To Hire</h1>
+                                <div class="social-container">
+                                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                                <span>or use your email for registration</span>
+                                <input type="text" placeholder="Name" />
+                                <input type="email" placeholder="Email" />
+                                <input type="password" placeholder="Password" />
+                                <button>Sign Up</button>
+                            </form>
+                        </div>
+                        <div class="form-container sign-in-container">
+                            <form action="#">
+                              <h1>Account To Get Hired</h1>
+                              <div class="social-container">
+                                  <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                                  <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                                  <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                              </div>
+                              <span>or use your email for registration</span>
+                              <input type="text" placeholder="Name" />
+                              <input type="email" placeholder="Email" />
+                              <input type="password" placeholder="Password" />
+                              <button>Sign Up</button>
+                            </form>
+                        </div>
+                        <!-- <div class="overlay-container">
+                            <div class="overlay">
+                                <div class="overlay-panel overlay-left">
+                                    <h1>Welcome Back!</h1>
+                                    <p>To keep connected with us please login with your personal info</p>
+                                    <button class="ghost" id="signIn">Sign In</button>
+                                </div> -->
+                                <div class="overlay-panel overlay-right">
+                                    <h1>Join The Family!</h1>
+                                    <p>Enter your personal details and start journey with us</p>
+                                    <!-- <button class="ghost" id="signUp">Sign Up</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
-            <img src="img/showcase1.jpg" alt="">
-        </div>
+     </div>
     </section>
 
-     <!-- Ovrlay Large Text -->
-     <section id="about" class="section-b">
-        <div class="overlay">
-          <div class="section-b-inner py-5">
-            <h3 class="text-2">No job too big. No job too small.</h3>
-            <h2 class="text-5 mt-1">We'll nail your next project, because nobody wants a screw up!</h2>
-            <p class="mt-1">
-              Broad vision. Careful thought. Hand-crafted design.
-              Build it and they will come.
-              Build Right.
-            </p>
-          </div>
-        </div>
-      </section>
-
-       <!-- Gallery -->
-    <section class="section-c">
-        <div class="gallery">
-          <a href="img/img1.jpg" class="big" target="_blank"
-            ><img src="img/img1.jpg" alt=""
-          /></a>
-          <a href="img/img5.jpg" class="big" target="_blank"
-            ><img src="img/img5.jpg" alt=""
-          /></a>
-          <a href="img/img3.jpg" class="big" target="_blank"
-            ><img src="img/img3.jpg" alt=""
-          /></a>
-          <a href="img/img4.jpg" class="big" target="_blank"
-            ><img src="img/img4.jpg" alt=""
-          /></a>
-          <a href="img/img2.jpg" class="big" target="_blank">
-            <img src="img/img2.jpg" alt=""
-          /></a>
-          <a href="img/img6.jpg" class="big" target="_blank"
-            ><img src="img/img6.jpg" alt=""
-          /></a>
-        </div>
-      </section>
+       
 
       <!-- Footer -->
     <footer class="section-footer py-4 bg-primary">
@@ -138,6 +143,9 @@
         </div>
       </footer>
 
+
+
+      <script src="js/app.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <!-- <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script> -->
